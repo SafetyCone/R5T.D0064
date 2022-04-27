@@ -10,6 +10,7 @@ using R5T.Lombardy;
 
 using R5T.D0062;
 using R5T.D0068;
+using R5T.T0064;
 
 
 namespace R5T.D0064
@@ -17,7 +18,8 @@ namespace R5T.D0064
     /// <summary>
     /// Only if the environment is named <see cref="T0019.EnvironmentNames.Development"/> is Razor runtime compilation added.
     /// </summary>
-    public class MvcRazorRuntimeCompilationOptionsConfigurer : IMvcRazorRuntimeCompilationOptionsConfigurer
+    [ServiceImplementationMarker]
+    public class MvcRazorRuntimeCompilationOptionsConfigurer : IMvcRazorRuntimeCompilationOptionsConfigurer, IServiceImplementation
     {
         private IApplicationProjectDirectoryPathProvider ApplicationProjectDirectoryPathProvider { get; }
         private IEnvironmentNameProvider EnvironmentNameProvider { get; }
