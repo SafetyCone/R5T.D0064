@@ -12,6 +12,7 @@
     <ProjectReference Include="..\..\..\R5T.L0010\source\R5T.L0010.Extensions\R5T.L0010.Extensions.csproj" />
     <ProjectReference Include="..\..\..\R5T.Lombardy.Base\source\R5T.Lombardy.Base\R5T.Lombardy.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.Magyar\source\R5T.Magyar\R5T.Magyar.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0064\source\R5T.T0064.T001\R5T.T0064.T001.csproj" />
     <ProjectReference Include="..\R5T.D0064.Base\R5T.D0064.Base.csproj" />
   </ItemGroup>
 </Project>

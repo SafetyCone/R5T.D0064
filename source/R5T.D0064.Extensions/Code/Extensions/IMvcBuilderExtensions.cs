@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation;
 
 using R5T.Magyar;
+using R5T.Magyar.Extensions;
 
 using R5T.D0064;
 

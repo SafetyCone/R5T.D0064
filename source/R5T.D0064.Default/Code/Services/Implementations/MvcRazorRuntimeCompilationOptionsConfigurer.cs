@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation;
 
 using R5T.Lombardy;
+using R5T.Magyar;
 
 using R5T.D0062;
 using R5T.D0068;
